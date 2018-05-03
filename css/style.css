@@ -9,11 +9,7 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-hr {
-  max-width: 65px;
-  border-width: 3px;
-  border-color: #5b5042;
-}
+
 
 .faded {
   color: rgba(255, 255, 255, 0.8);
@@ -35,11 +31,15 @@ header.startup h1 {
   font-size: 4rem;
   text-shadow: 2px 2px #000;
 }
+header.startup h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: 2px 2px #000;
+}
 
 .btn {
   font-weight: 700;
   text-transform: uppercase;
-  border-radius: 300px;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -48,14 +48,15 @@ header.startup h1 {
 }
 
 .btn-primary {
-  background-color: #5b5042;
-  border-color: #3e2b15;
+
+  background-color: #30313F;
+  border-color: #13142b;
   border-width: 5px;
 }
 
 .btn-primary:hover {
-  background-color: #30313F;
-  border-color: #13142b;
+  background-color: #5b5042;
+  border-color: #3e2b15;
   border-width: 5px;
   cursor: pointer;
 }
